@@ -9,7 +9,7 @@ body{
    width: 960px;
    line-height: 150%
 }
-h1{
+#h1{
     background: #ebebeb;
     margin-top:10px;
    text-align: center;
@@ -18,19 +18,21 @@ h1{
    padding-bottom: 40px; 
 } 
 
-p{
+#nav{
     background: #ebebeb;
     margin-top:10px;
+    margin-bottom: 10px;
    text-align: center; 
    padding-top: 40px;
    padding-bottom: 40px;
+   
 
 }
 
-h2{
-    color:#777;
+.section{
+    background-color:white;
+    color:grey;
     width: 59%;
-    background-color: #ebebeb;
     float: left;
    margin-right: 2%;
    height: 300px;
@@ -38,25 +40,22 @@ h2{
    margin-top: 0px;
 }
 
-h3{
-    color:#777;
-    background-color: #ebebeb;
-    float: left;
-    width: 39%;
-    height: 300px;
-    text-align: center;
-    margin-top: 0px;
+#headers{
+    background-color: white;
+    color:grey;
+
 }
-footer{
-    color:#777;
-    background-color:#ebebeb;
-    margin-top: 1px;
-    padding:10px;
+
+#paragraph{
+    background-color: white;
+    color:grey;
+    margin-top: 5px;
+
 }
-#article{
+#article{ 
     background-color: grey;
     color:white;
-    float: left;
+  
     height: 80px;
     width:435px;
     padding-bottom: 105px;
@@ -67,6 +66,20 @@ footer{
     margin-bottom: 10px;
     margin-left: 10px;
 }
+
+#aside{
+    float:left;
+    background-color: white;
+    width:39%;
+    height:300px;
+    text-align: center;
+   
+}
+
 .clearfix{
     clear:both;
+}
+ 
+footer{
+    background-color: white;
 }
