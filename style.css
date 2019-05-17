@@ -4,40 +4,38 @@ body{
    color: #777;
    font-size: 18px;
    width: 960px;
-   /* line-height: 150%; */
    margin: 0 auto;
 }
-
 #h1{
     background: #ebebeb;
     margin-top:10px;
-   text-align: center;
-   padding-top: 40px;
-   padding-bottom: 40px; 
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px; 
 } 
 #nav{
     background: #ebebeb;
     margin-top:10px;
     margin-bottom: 10px;
-   text-align: center; 
-   padding-top: 40px;
-   padding-bottom: 40px;
+    text-align: center; 
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .section{
     background-color:#ebebeb;
     color:grey;
     width: 59%;
     float: left;
-   margin-right: 2%;
-   height: 300px;
-   text-align: center;
-   margin-top: 10px;
-   padding-top: 30px;
+    margin-right: 2%;
+    height: 300px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
 }
 #article{ 
     background-color: #777;
     color:#ebebeb;
-    height: 207px;
+    height: 203px;
     width:540px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -50,10 +48,10 @@ body{
     background-color: #ebebeb;
     color:#777;
     width:500px;
-    height:54px;
+    height:53px;
     margin-top: 20px;
     margin-left: 20px;
-    padding-top: 21px;
+    padding-top: 14px;
     font-weight: bold;
 }
 #paragraph{
@@ -61,9 +59,13 @@ body{
     color:#777;
     margin-top: 10px;
     margin-left: 20px;
-    height:55px;
+    height:51px;
     width: 500px;
-    padding-top: 20px;
+    padding-top: 18px;
+    padding-bottom: 1px;
+}
+p{
+    margin-top: 10px;
 }
 #aside{
     float:left;
